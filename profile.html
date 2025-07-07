@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="profileh">
+    <div class="topbar">
+      <img src="img/Charusat.png" alt="CHARUSAT Logo" height="50px"/>
+    </div>
+    <nav>
+      <ul class="nav">
+        <li class="navbar"><a href="dashboard.html" class="dashboard">Dashboard</a></li>
+        <li class="navbar"><a href="profile.html" class="profile highlight">Profile</a></li>
+        <li class="navbar"><a href="timetable.html" class="timetable">Time Table</a></li>
+        <li class="navbar"><a href="assignment.html" class="assignment">Assignments</a></li>
+        <li class="navbar"><a href="events.html" class="events">Events</a></li>
+        <li class="navbar"><a href="club.html" class="club">Club Info</a></li>
+        <li class="navbar"><a href="contact.html" class="contact">Contact us</a></li>
+        <li class="navbar"><a href="about.html" class="about">About us</a></li>
+        <li class="navbar"><a href="login.html" class="logout">Logout</a></li>
+      </ul>
+    </nav>
+    </header>
+    <main class="profilem">
+    <div class="hero">
+      <div class="overlay">
+        <div class="profileb">
+          <div class="photo">
+            <img src="img/profile_icon.jpg" alt="" class="profile_pic" width="200px" height="200px">
+            <p class="name">John Wick</p>
+            <p><a href="#">johnwick123@gmail.com</a></p>
+          </div>
+          <div class="info">
+            <form action="" class="prof">
+              <h1 class="hi">Hi, 24CS000</h1>
+              <p class="pinfo">Personal Info</p>
+              <input type="text" class="input" id="un" placeholder="username" required>
+              <input type="text" class="input" id="sn" placeholder="surname" required>
+              <input type="number" class="input" id="mb" placeholder="Mobile no." required>
+              <input type="email" class="input" id="em" placeholder="E-mail" required>
+              <p class="ainfo">Academic Info</p>
+              <input type="text" class="input" id="id" placeholder="Unique ID" required> 
+              <label>Department :</label>
+              <select id="Department" class="input" name="Department" required>
+                <option value="-1">Choose Department</option>
+                <option value="CSE">CSE</option>
+                <option value="CE">CE</option>
+                <option value="IT">IT</option>
+                <option value="AIML">AI/ML</option>
+              </select>
+              <input type="radio" class="tick" name="div" id="div1"><label>Div-1</label>
+              <input type="radio" class="tick" name="div" id="div2"><label>Div-2</label>
+              <input type="email" class="input" id="mail" placeholder="Clg Email" required>
+              <button type="submit" class="submit">Edit and Save</button>
+            </form>
+          </div>
+          <div class="upload">
+              <h3>Cetificates</h3>
+              <p>Upload you acheivements and Certificate Below</p>
+              <input type="file" id="file">
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <footer class="profilef">
+      <div class="container">
+      <p>&copy; 2025 CHARUSAT Student Portal. All rights reserved.</p>
+    </div>
+    </footer>
+</body>
+</html>
