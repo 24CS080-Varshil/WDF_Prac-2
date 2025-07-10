@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <input type="checkbox" id="theme-switch" hidden>
+<label for="theme-switch" class="theme-toggle">Toggle Theme</label>
+<div class="theme-wrapper"></div>
   <header class="loginh">
     <div class="topbar">
       <img src="img/Charusat.png" alt="CHARUSAT Logo" height="50px"/>
@@ -24,27 +27,29 @@
             <form action="dashboard.html" method="get">
             <h1>Log in</h1>
             <div class="input">
-            <input type="text" id="username" placeholder="username" required>
-            <img src="person_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            <input type="text" class="textbox user" id="username" placeholder="username" required>
+            <img class="user_icon" src="img/usericon.png" alt="">
             </div>
             <div class="input">
-            <input type="password" id="pass" placeholder="password" required>
-            <img src="lock_open_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+            <input class="textbox pass" type="password" id="pass" placeholder="password" required>
+            <img class="lock_icon" src="img/lockicon.png" alt="">
             </div>
             <div class="remember">
-              <label><input type="checkbox" id="check">save credential</label>
+              <label class="check"><input type="checkbox" id="check">save credential</label>
               <a href="#">Forget password?</a>
             </div>
             <button type="submit" class="btn">Login</button>
+            <p class="reg-page"><a href="registration.html">Don't have an accout ?  click here</a></p>
             </form>
         </div>
       </div>
     </div>
     </main>
     <footer class="loginf">
-    <div class="container">
+    <div class="container1">
       <p>&copy; 2025 CHARUSAT Student Portal. All rights reserved.</p>
     </div>
   </footer>
+</div>
 </body>
 </html>
