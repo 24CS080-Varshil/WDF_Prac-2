@@ -78,14 +78,14 @@ text-shadow:3px 3px var(--h1_shadow);
   text-decoration: none;
   color: #007bff;
 }
-.container{
+.container2{
   display: flex;
   justify-content: center;
   align-content: center;
   justify-items: center;
   gap: 80px;
 }
-.container .box{
+.container2 .box{
   width: 20%;
   height: 450px;
   background-color: white;
@@ -104,27 +104,31 @@ text-shadow:3px 3px var(--h1_shadow);
   right: -100px;
   top: -10px;
 }
-.container .box img{
+.container2 .box img{
   width: 100%;
   height: auto;
   border-radius: 10px;
   padding: 2px;
 }
-.container .box p,h4{
+.container2 .box p,h4{
   text-align: center;
   padding-left:20px;
   padding-right:20px;
 }
-.container .box p{
+.container2 .box p{
   text-align: justify;
 }
-.container .box h4{
+.container2 .box h4{
   margin-top: 20px;
 }
 footer{
   padding: 30px;
   color: white;
   background-color: rgb(45, 45, 45);
+}
+.box:hover{
+  transform:translateY(-5px);
+  transition-duration: 0.5s;
 }
 
 /* login_page  */
