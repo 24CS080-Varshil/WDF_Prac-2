@@ -68,7 +68,7 @@ footer {
   padding: 2px 8px;
   border-radius: 40px;
   box-shadow: 1px -0.5px black;
-  color: white;
+  color: var(--text-color);
 }
 #theme-toggle:checked + label::after {
   content: '🔆Light';
@@ -167,6 +167,7 @@ text-shadow:3px 3px var(--h1_shadow);
   position: relative;
   box-shadow: 3px 5px rgba(0, 0, 0, 0.05);
   margin: 2px 30px;
+  color: black;
 }
 .box1{
   top: -10px;
